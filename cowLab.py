@@ -27,7 +27,7 @@ def main():
             encoded = encode(input("Please enter your password to encode: "))
             print("Your password has been encoded and stored!\n")
         elif answer == 2:
-            if encoded == None:
+            if encoded is None:
                 print("No password has been encoded!\n")
             else:
                 decoded = decode(encoded)
