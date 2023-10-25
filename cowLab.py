@@ -12,8 +12,8 @@ def encode(password_encode):
             l = 3
         l = str(l)
         encoded.append(l)
-        encoded2 = ''.join(map(str, encoded))
-        return encoded2
+    encoded2 = ''.join(map(str, encoded))
+    return encoded2
 
 
 if __name__ == "__main__":
